@@ -1,0 +1,197 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "8d6c34b70e3d638c82d7b5aba3f847f7d6d2c831"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BlackItalic.ttf",
+      "sha1": "be4ef2aac7775a4b0179c0ecfce6cea8f7783f63"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BoldItalic.ttf",
+      "sha1": "6de8952ca08d27ee77f57347d2cef4b4e26aa78f"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBoldItalic.ttf",
+      "sha1": "94d3ee3acdbd00e37a715a25f2b5237666b5b8a3"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLightItalic.ttf",
+      "sha1": "6fa0418f91032680d2d8fe4843009f2c80faa61d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Italic.ttf",
+      "sha1": "e2bfcd56016c3c915221ef1c5fc1a17b0776eb91"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-LightItalic.ttf",
+      "sha1": "f76102b361e705751a83b7b22fe954daf1f27dd4"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-MediumItalic.ttf",
+      "sha1": "b592c62fdf88c40cfd0f031bba6423b1d4430472"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBoldItalic.ttf",
+      "sha1": "0c8bed0a5942b2388d36b11c115685d9f01700b0"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ThinItalic.ttf",
+      "sha1": "fb8fccca21550e71135f92bbaf8a2e8a12c90465"
+    },
+    {
+      "path": "src/assets/fonts/astroarmada.ttf",
+      "sha1": "bf1f1cefa0cfc613612023ba07f2d4758d135025"
+    },
+    {
+      "path": "src/assets/fonts/astroarmada.txt",
+      "sha1": "07a71f0277b54aba5ec7779ca886bfaf172ff576"
+    },
+    {
+      "path": "src/assets/fonts/astroarmada3d.ttf",
+      "sha1": "c6b7afffcebd2137d3c33e343ff9b866e5ee010d"
+    },
+    {
+      "path": "src/assets/fonts/astroarmada3dital.ttf",
+      "sha1": "4dafc2909355a15e044a27319a444a4435e922f9"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadacond.ttf",
+      "sha1": "9e0c4207f5dcdfd4b73915bcb7a9ad96aef20a38"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadacondital.ttf",
+      "sha1": "6a991bfd03e7675d2c4b97623169dcfe0e7c63d5"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadacondsemital.ttf",
+      "sha1": "283420c73ba71259f47e76a520a90b4a88956d81"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaexpand.ttf",
+      "sha1": "b7fe92bc05bea58f98ede1017287593bc7dc9bbc"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaexpandital.ttf",
+      "sha1": "c10b53fe567d109d94b8452d660f4d040662e1f5"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaexpandsemital.ttf",
+      "sha1": "21e9cc54e7574c806dc894bece49493e3ee5c068"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadagrad.ttf",
+      "sha1": "a5025c139dca0e798b33acaf9e2ce3f1f047e6ba"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadagrad2.ttf",
+      "sha1": "6385fc03329cee6c66ffa980397ef0c5347285c1"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadagrad2ital.ttf",
+      "sha1": "8621af86137dacb4f68e0d5cf07e3343d2448bf7"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadagradital.ttf",
+      "sha1": "263ca581f2f95b8ed5cc3c302a57988fc1c75798"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadahalf.ttf",
+      "sha1": "52294386299580ebba6d9edfa074a2e850b83a1b"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadahalfital.ttf",
+      "sha1": "ebce72dabd1c2e7b908398e11435a4394cc344c0"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaital.ttf",
+      "sha1": "bb6fe68de1a80da0f8069cef3488479bbe74ab09"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaleft.ttf",
+      "sha1": "922d191317662956da59423eb4ab23d7b4caa7f0"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaout.ttf",
+      "sha1": "4b4f14d25d4851f19524369deecc29c98e80e49e"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaoutital.ttf",
+      "sha1": "6579c0966ba691f5bc34238e4fbc3dd6e18ef563"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadaoutsemital.ttf",
+      "sha1": "295466828fed2485dc2f4f381c2cafc8d017f2aa"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadasemileft.ttf",
+      "sha1": "0c9f4840f5cc35ebb40cc916b807412068538a61"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadasemital.ttf",
+      "sha1": "8c3d9fe7ba10739b96e99ecc83062436313a1ac9"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadasuperital.ttf",
+      "sha1": "f7245b787d6fe423ac0fac4a2c8d4769bbde3eb9"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadatitle.ttf",
+      "sha1": "6065b9fef1837615c6e3dfcfec51253cbfd7cc1c"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadatitleital.ttf",
+      "sha1": "923d336d146a53a1feb87a9cbc4767f70c16094f"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadatitlesemital.ttf",
+      "sha1": "a9b22685f2795da1ebc777db19205691159935b8"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadatwo.ttf",
+      "sha1": "02ffd593073ae1c73e1764818bf979c48d8ccb77"
+    },
+    {
+      "path": "src/assets/fonts/astroarmadatwoital.ttf",
+      "sha1": "390e51f77393a10f5ca8e1f694577f667c4381ff"
+    }
+  ]
+}
