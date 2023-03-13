@@ -141,7 +141,7 @@ const SignUp = ({navigation}) => {
 
               marginTop: 3,
             }}>
-            <View style={{width: wp(10)}}>
+            <View style={{width: wp(13)}}>
               <CountryPicker
                 countryPickerRef={ref => {
                   countryPickerRef = ref;
@@ -206,7 +206,7 @@ const SignUp = ({navigation}) => {
               />
             </View>
 
-            <View style={{width: wp(90)}}>
+            <View>
               <TextInput
                 style={[
                   styles.InputBox,

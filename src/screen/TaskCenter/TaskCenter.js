@@ -206,7 +206,7 @@ const TaskCenter = ({navigation}) => {
           onPress={() => {
             navigation.goBack();
           }}
-          righticon={Theme == 'Dark' ? ImagePath.homedark : ImagePath.home1}
+          righticon={Theme == 'Dark' ? ImagePath.angleleft2 : ImagePath.angleleft}
           lefticon2={
             Theme == 'Dark' ? ImagePath.rongicondark : ImagePath.rongicon
           }

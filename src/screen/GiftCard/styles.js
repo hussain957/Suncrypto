@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: ColorPath.white,
     },
 
     Gifttext: {
@@ -16,11 +15,9 @@ const styles = StyleSheet.create({
         fontWeight: '600',
         fontSize: 20,
         lineHeight: 30,
-        color: ColorPath.darkblack,
     },
 
     whitebox: {
-        backgroundColor: ColorPath.white,
         borderRadius: 12,
         alignItems: 'center',
         elevation: 3,
@@ -42,7 +39,6 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontSize: 8,
         lineHeight: 12,
-        color: ColorPath.gray2,
     },
 
     giftboxicon: {
@@ -60,7 +56,6 @@ const styles = StyleSheet.create({
     },
 
     graybox: {
-        backgroundColor: ColorPath.lightgray,
         borderRadius: 13,
         flexDirection: 'row',
         alignItems: 'center',
@@ -82,7 +77,6 @@ const styles = StyleSheet.create({
     },
 
     graybox2: {
-        backgroundColor: ColorPath.lightgray,
         borderRadius: 13,
         paddingHorizontal:wp(2),
         paddingVertical:hp(1),
@@ -91,7 +85,6 @@ const styles = StyleSheet.create({
 
 
     Populartext: {
-        color: ColorPath.darkblack,
         fontFamily: FontPath.Poppins_Medium,
         fontWeight: '400',
         fontSize: 15,
@@ -104,7 +97,6 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontSize: 12,
         lineHeight: 18,
-        color: ColorPath.darkblack,
         marginTop: 5,
     },
 

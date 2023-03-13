@@ -19,6 +19,7 @@ import Navbar from '../../component/Navbar';
 import styles from './styles';
 
 const ReferralId = ({navigation}) => {
+  
   const Theme = useSelector(store => store.ThemeReducer);
 
   return (
@@ -29,7 +30,7 @@ const ReferralId = ({navigation}) => {
       ]}>
       <View style={{paddingHorizontal: wp(4), paddingVertical: hp(1)}}>
         <Navbar
-          righticon={Theme == 'Dark' ? ImagePath.homedark : ImagePath.home1}
+          righticon={Theme == 'Dark' ? ImagePath.angleleft2 : ImagePath.angleleft}
           lefticon2={
             Theme == 'Dark' ? ImagePath.rongicondark : ImagePath.rongicon
           }
@@ -441,14 +442,49 @@ const ReferralId = ({navigation}) => {
             marginTop: hp(4),
           }}>
           <View style={{flex: 1}}>
-            <Text style={styles.Quartarlytext}>Quartarly Bonus (BUSD)</Text>
-            <Text style={styles.persenttext}>0</Text>
+            <Text
+              style={[
+                styles.Quartarlytext,
+                {
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
+              Quartarly Bonus (BUSD)
+            </Text>
+            <Text
+              style={[
+                styles.persenttext,
+                {
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
+              0
+            </Text>
           </View>
           <View style={{flex: 1}}>
-            <Text style={[styles.Quartarlytext, {width: wp(15)}]}>
+            <Text
+              style={[
+                styles.Quartarlytext,
+                {
+                  width: wp(15),
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
               Cashback (USDT)
             </Text>
-            <Text style={styles.persenttext}>0</Text>
+            <Text
+              style={[
+                styles.persenttext,
+                {
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
+              0
+            </Text>
           </View>
         </View>
 
@@ -459,16 +495,50 @@ const ReferralId = ({navigation}) => {
             paddingVertical: hp(3),
           }}>
           <View style={{flex: 1}}>
-            <Text style={[styles.Quartarlytext, {width: wp(13)}]}>
+            <Text
+              style={[
+                styles.Quartarlytext,
+                {
+                  width: wp(13),
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
               Total Referrals
             </Text>
-            <Text style={styles.persenttext}>0</Text>
+            <Text
+              style={[
+                styles.persenttext,
+                {
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
+              0
+            </Text>
           </View>
           <View style={{flex: 1}}>
-            <Text style={[styles.Quartarlytext, {width: wp(16)}]}>
+            <Text
+              style={[
+                styles.Quartarlytext,
+                {
+                  width: wp(16),
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
               Successful Referrals
             </Text>
-            <Text style={styles.persenttext}>0</Text>
+            <Text
+              style={[
+                styles.persenttext,
+                {
+                  color:
+                    Theme == 'Dark' ? ColorPath.white : ColorPath.darkblack,
+                },
+              ]}>
+              0
+            </Text>
           </View>
         </View>
       </View>

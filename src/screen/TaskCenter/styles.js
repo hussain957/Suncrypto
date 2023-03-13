@@ -106,9 +106,6 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 5,
         borderBottomLeftRadius: 5,
         width: wp(15)
-
-
-
     },
 
     Cashbackbutton: {

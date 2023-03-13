@@ -25,13 +25,17 @@ const Navbar = (props) => {
 
 
     return (
-        <View style={{ flexDirection: 'row', }} >
-            <TouchableOpacity onPress={props.onPress} style={{ flex: 1, }}>
+        <View style={{ flexDirection: 'row',justifyContent:'space-between' }} >
+            <View >
+            <TouchableOpacity onPress={props.onPress} >
+                <View>
                 <Image source={props.righticon} style={styles.profileicon} />
+                </View>
             </TouchableOpacity>
-            <View style={{ flex: .3, flexDirection: 'row', justifyContent: 'space-between', }} >
+            </View>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', }} >
                 <TouchableOpacity onPress={props.onPress1} >
-                    <Image source={props.lefticon} style={styles.profileicon} />
+                    <Image source={props.lefticon} style={[styles.profileicon,{marginRight:wp(6)}]} />
                 </TouchableOpacity>
 
                 {/* <Animated.View

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Image, View, StyleSheet, Text, Animated, StatusBar} from 'react-native';
+import {Image, View, Text, StatusBar} from 'react-native';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -14,6 +14,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import ColorPath from '../../assets/ColorPath';
 
 const SplashScreen = ({navigation}) => {
+  
   const dispatch = useDispatch();
   const Theme = useSelector(store => store.ThemeReducer);
 
@@ -29,7 +30,7 @@ const SplashScreen = ({navigation}) => {
 
     AsyncStorage.getItem('CheckLocalTheme').then(CheckLocalTheme => {
       // console.log('theme', CheckLocalTheme);
-      dispatch(ChangeTheme(CheckLocalTheme == 'Dark' ? 'Light' : 'Dark'));
+      dispatch(ChangeTheme(CheckLocalTheme == 'Light' ? 'Dark' : 'Light'));
     });
   });
   return (

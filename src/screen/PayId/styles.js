@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: ColorPath.white,
     },
 
     viewcontainer: {
@@ -22,7 +21,6 @@ const styles = StyleSheet.create({
         fontWeight: '600',
         fontSize: 20,
         lineHeight: 30,
-        color: ColorPath.darkblack,
         marginTop: hp(2.5)
     },
 
@@ -31,7 +29,6 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontSize: 12,
         lineHeight: 18,
-        color: ColorPath.gray2,
     },
 
     copyicon: {
@@ -42,8 +39,6 @@ const styles = StyleSheet.create({
     },
 
     whitebox: {
-       
-        backgroundColor: ColorPath.white,
         borderRadius: 12,
         flexDirection: 'row',
         marginTop:hp(-8),
@@ -51,7 +46,6 @@ const styles = StyleSheet.create({
         shadowColor:'black',
         height: hp(11),
         paddingVertical:hp(1.5),
-        
     },
 
     sendicon: {
@@ -65,12 +59,10 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontSize: 12,
         lineHeight: 18,
-        color: ColorPath.gray2,
         marginTop:3,
     },
 
     Latesttext:{
-      color:ColorPath.darkblack,
       fontFamily:FontPath.Poppins_Medium,
       fontWeight:'400',
       fontSize:15,
@@ -83,12 +75,8 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontSize: 12,
         lineHeight: 18,
-        color: ColorPath.darkblack,
         marginTop:3,
     }
-
-
-
 });
 
 export default styles

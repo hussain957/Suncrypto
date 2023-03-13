@@ -168,7 +168,6 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontSize: 12,
         lineHeight: 18,
-        color: ColorPath.darkblack,
         width: wp(24)
     }
 

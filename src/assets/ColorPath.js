@@ -15,8 +15,7 @@ const ColorPath = {
     darkred:'#C33232',
     lightgray4:'#EBEBEB',
     bluedark:'#3D5B65',
-    blue:'#1A2E35'
-
+    blue:'#1A2E35',
+    green:'#32C352'
 }
-
 export default ColorPath;

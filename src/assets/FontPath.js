@@ -12,7 +12,6 @@ const FontPath ={
     Poppins_Regular:'Poppins-Regular',
     Poppins_Bold:'Poppins-Bold'
 
-
 }
 
 export default FontPath

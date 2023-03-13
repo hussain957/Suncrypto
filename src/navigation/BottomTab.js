@@ -3,17 +3,17 @@ import {View, Text, Image, _Image, StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import ImagePath from '../assets/ImagePath';
-import Markets from '../screen/Markets';
-import Wallets from '../screen/Wallets';
-import Trades from '../screen/Trades';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import ColorPath from '../assets/ColorPath';
-import Refresh from '../screen/Refresh';
 import Home from '../screen/Home/Home';
 import {useSelector} from 'react-redux';
+import Market from '../screen/Market/Market';
+import Refresh from '../screen/Refresh/Refresh';
+import Trades from '../screen/Trades/Trades';
+import Wallets from '../screen/Wallets/Wallets';
 
 const RenderTabIcon = props => {
   const {activeIcon, inActiveIcon, title, isFocused} = props;
@@ -56,16 +56,16 @@ function HomeStackScreen() {
   );
 }
 
-const Marketspage = createNativeStackNavigator();
-function MarketsStackScreen() {
+const Marketpage = createNativeStackNavigator();
+function MarketStackScreen() {
   return (
-    <Marketspage.Navigator>
-      <Marketspage.Screen
-        name="Markets"
-        component={Markets}
+    <Marketpage.Navigator>
+      <Marketpage.Screen
+        name="Market"
+        component={Market}
         options={{headerShown: false}}
       />
-    </Marketspage.Navigator>
+    </Marketpage.Navigator>
   );
 }
 
@@ -147,7 +147,7 @@ function BottomTab() {
 
       <Tab.Screen
         name="Marketss"
-        component={MarketsStackScreen}
+        component={MarketStackScreen}
         options={{
           tabBarLabel: '',
           tabBarIcon: ({focused}) => {
